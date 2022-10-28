@@ -34,6 +34,7 @@ function onGalleryItemTarget(evt) {
     `<img  src="${evt.target.dataset.source}">`
   );
   instance.show();
+
   galleryBox.addEventListener("keydown", (evt) => {
     if (evt.code === "Escape") {
       instance.close();
